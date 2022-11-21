@@ -1,5 +1,5 @@
 # TaskRes
-The official implementation of *Task Residual for Tuning Vision-Language Models*. The code will be released soon.
+The official implementation of [*Task Residual for Tuning Vision-Language Models*](https://arxiv.org/abs/2211.10277). The code will be released soon.
 
 ## Brief Introduction
 
