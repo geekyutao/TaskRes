@@ -1,7 +1,12 @@
 # Task Residual: Tuning Vision-Language Models in One Line of Code
-The official implementation of [*Task Residual for Tuning Vision-Language Models*](https://arxiv.org/abs/2211.10277) (accepted by CVPR 2023).
+The official implementation of [*Task Residual for Tuning Vision-Language Models*](https://arxiv.org/abs/2211.10277) (accepted to CVPR 2023).
 
 The proposed Task Residual Tuning (TaskRes) is a new paradigm for tuning vision-language models (VLMs), which directly tunes the text-based classifier weights, without the need of heavy text encoders for prompt updates or carefully designed adapters.
+
+## Comparison
+- Prompt tuning tunes the input of the models;
+- Adapters transform the pre-trained features by an MLP $\phi_{\omega}$: $\mathbf{f}'=\mathbf{f} + \alpha \phi_{\omega}(\mathbf{f})$ or $\mathbf{t}'=\mathbf{t} + \alpha \phi_{\omega}(\mathbf{t})$;
+- TaskRes (Ours) directly tunes the text-based classifier weights in an *additive* way: $\mathbf{t}'=\mathbf{t}+\alpha\mathbf{x}$ where $\mathbf{x}$ is a set of learnable parameters.
 
 ![image](./images/taskres.png)
 
