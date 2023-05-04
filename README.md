@@ -35,3 +35,14 @@ We present the basic usage here.
 
 ## Acknowledgment
 This repository is mainly based on Kaiyang Zhou's repository [CoOp](https://github.com/KaiyangZhou/CoOp) code base. We sincerely thank Kaiyang for his awesome code base.
+
+## Citation
+If you find this work useful for your research, please cite us:
+```
+@article{yu2022task,
+  title={Task Residual for Tuning Vision-Language Models},
+  author={Yu, Tao and Lu, Zhihe and Jin, Xin and Chen, Zhibo and Wang, Xinchao},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2023}
+}
+```
