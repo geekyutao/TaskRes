@@ -39,10 +39,11 @@ This repository is mainly based on Kaiyang Zhou's repository [CoOp](https://gith
 ## Citation
 If you find this work useful for your research, please cite us:
 ```
-@article{yu2022task,
+@inproceedings{yu2023task,
   title={Task Residual for Tuning Vision-Language Models},
   author={Yu, Tao and Lu, Zhihe and Jin, Xin and Chen, Zhibo and Wang, Xinchao},
-  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10899--10909},
   year={2023}
 }
 ```
